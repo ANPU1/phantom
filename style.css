@@ -36,3 +36,27 @@ nav{
 .centre .submit{
     height: 23px;
 }
+.sidebar-nav{
+    position: relative;
+    display: flex;
+    margin-left: 50px;
+    border: 1px solid black;
+    width: 300px;
+    height: 850px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    flex-wrap: nowrap;
+  }
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.sidebar-nav a{
+    margin-bottom: 20px;
+    word-spacing: 5px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
