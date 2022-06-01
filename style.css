@@ -1,0 +1,38 @@
+.left{
+    display:flex;
+    /*justify-content: space-around;*/
+    width: 100px;
+    flex:1;
+}
+.centre{
+    display:flex;
+  flex:2;
+}
+header i{
+    cursor:pointer;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+}
+.right{
+    display: flex;
+    width: 100px;
+  flex: 2;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+
+.left .logo i{
+    color: red;
+    margin-left: 2rem;
+}
+/*.centre .submit{
+    height: 23px;
+}*/
+.centre .submit{
+    height: 23px;
+}
